@@ -1,3 +1,4 @@
+import { AboutComponent } from './../about/about.component';
 import { DishdetailComponent } from './../dishdetail/dishdetail.component';
 import { ContactComponent } from './../contact/contact.component';
 import { MenuComponent } from './../menu/menu.component';
@@ -18,9 +19,14 @@ export const routes: Routes = [
     component: DishdetailComponent
   },
   {
+    path: 'aboutus',
+    component: AboutComponent
+  },
+  {
     path: 'contactus',
     component: ContactComponent
   },
+
   {
     path: '',
     redirectTo: '/home',
